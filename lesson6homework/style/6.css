@@ -1,0 +1,77 @@
+#first{
+    width: 1460px;
+    height: 90px;
+}
+body {
+    background-color: bisque;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 170px;
+    margin-left: 155px;
+    margin-top: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+    
+
+nav a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+
+.scheduleLine {
+    width: 70px;
+    height: 2px;
+    background-color: black;
+}
+
+.classesLine {
+    width: 130px;
+    height: 2px;
+    background-color: black;
+}
+
+.addressesLine {
+    width: 175px;
+    height: 2px;
+    background-color: black;
+}
+
+#hi{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 64px;
+    font-weight: 400px;
+    line-height: 75px;
+}
+table{
+    border: solid;
+    width: 100%;
+    height: 130px;
+}
+th {
+    border: solid black 1px;
+    padding: 10px;
+}
+
+td {
+    border: solid black 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+#fname {
+    
+    height: 600px;
+    width: 800px;
+    display: block;
+    margin: 10px;
+    background-color: green;
+}
