@@ -1,0 +1,122 @@
+body{
+    background-color: #f0f0f0;
+}
+
+.social-icons {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    
+    .social-icons a {
+    color: #01030b;
+    text-decoration: none;
+   
+    }
+    
+    .fab {
+    font-size: 24px;
+    }
+
+table {
+    border: solid black 1px;
+    width: 100%;
+    height: 400px;
+}
+
+
+th {
+    border: solid black 1px;
+    padding: 5px;
+}
+
+td {
+    border: solid black 1px;
+    padding: 5px;
+    text-align: center; 
+}
+
+
+table td:hover {
+    background-color: #85e196;
+    color: #ff0000; 
+}
+
+
+nav {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+    nav a:hover {
+    background-color: #cbf0ba;
+    color: black;
+    }
+
+   
+    .section {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; 
+      }
+      
+      .rating {
+        display: flex;
+        align-items: center;
+      }
+      
+      .input textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+      
+      .buttons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+      }
+      
+      .danger {
+        background-color: red;
+        color: white;
+      }
+      
+      .send {
+        background-color: blue;
+        color: white;
+      }
+
+      footer {
+        background-color: #000000; 
+        color: #063cf0; 
+        padding: 30px 0;
+        text-align: center;
+      }
+      
+      .footer-something {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      
+      .footer-some {
+        text-align: left;
+      }
+      
